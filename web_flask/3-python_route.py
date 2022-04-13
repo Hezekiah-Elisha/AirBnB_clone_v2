@@ -29,5 +29,6 @@ def show_pythontext(text='is cool'):
     """print python default or not text"""
     return 'Python {}'.format(text.replace('_', ' '))
 
+
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000, debug=True)
